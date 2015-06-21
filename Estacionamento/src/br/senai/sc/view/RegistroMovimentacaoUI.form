@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.8" type="org.netbeans.modules.form.forminfo.JInternalFrameFormInfo">
+  <Properties>
+    <Property name="closable" type="boolean" value="true"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jtpRegistroMovimentacao" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="jlPlacaRegistroMovimentacao2" min="-2" max="-2" attributes="0"/>
+                  <Component id="jlPlacaRegistroMovimentacao1" min="-2" max="-2" attributes="0"/>
+                  <Component id="jlPlacaRegistroMovimentacao" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="jtfPlacaRegistroMovimentacao" min="-2" pref="109" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jbOkRegistroMovimentacao" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="labelVagasLivresMensalista" min="-2" max="-2" attributes="0"/>
+                          <Component id="labelNumeroVagas" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jlPlacaRegistroMovimentacao" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jtfPlacaRegistroMovimentacao" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jbOkRegistroMovimentacao" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jlPlacaRegistroMovimentacao1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="labelNumeroVagas" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jlPlacaRegistroMovimentacao2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="labelVagasLivresMensalista" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="jtpRegistroMovimentacao" min="-2" pref="408" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jlPlacaRegistroMovimentacao">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Placa:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtfPlacaRegistroMovimentacao">
+    </Component>
+    <Component class="javax.swing.JButton" name="jbOkRegistroMovimentacao">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ok"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbOkRegistroMovimentacaoActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JTabbedPane" name="jtpRegistroMovimentacao">
+      <Properties>
+        <Property name="toolTipText" type="java.lang.String" value=""/>
+      </Properties>
+      <AccessibilityProperties>
+        <Property name="AccessibleContext.accessibleName" type="java.lang.String" value=""/>
+      </AccessibilityProperties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jpEntradaRegistroMovimentacao">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="ENTRADA">
+                <Property name="tabTitle" type="java.lang.String" value="ENTRADA"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+                              <Component id="jbConcluirEntradaRegistroMovimentacao" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="55" max="-2" attributes="0"/>
+                              <Component id="jbCancelarEntradaRegistroMovimentacao" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace pref="107" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                      <Component id="jPanel1" min="-2" pref="266" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jbCancelarEntradaRegistroMovimentacao" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jbConcluirEntradaRegistroMovimentacao" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JButton" name="jbConcluirEntradaRegistroMovimentacao">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Concluir"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbConcluirEntradaRegistroMovimentacaoActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="jbCancelarEntradaRegistroMovimentacao">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Cancelar"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbCancelarEntradaRegistroMovimentacaoActionPerformed"/>
+              </Events>
+            </Component>
+            <Container class="javax.swing.JPanel" name="jPanel1">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                    <TitledBorder/>
+                  </Border>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                                  <Component id="jlNumeroCartaoEntradaRegistroMovimentacao" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="65" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="jlClienteEntradaRegistroMovimentacao" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jlPlacaEntradaRegistroMovimentacao" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jlVagaEntradaRegistroMovimentacao" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jlModeloEntradaRegistroMovimentacao1" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="jtfNumeroCartaoEntradaRegistroMovimentacao" max="32767" attributes="0"/>
+                              <Component id="jtfClienteEntradaRegistroMovimentacao" max="32767" attributes="0"/>
+                              <Component id="jtfPlacaEntradaRegistroMovimentacao" max="32767" attributes="0"/>
+                              <Component id="jtfModeloEntradaRegistroMovimentacao" pref="77" max="32767" attributes="0"/>
+                              <Component id="jtfVagaEntradaRegistroMovimentacao" alignment="1" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="26" pref="201" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jlNumeroCartaoEntradaRegistroMovimentacao" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jtfNumeroCartaoEntradaRegistroMovimentacao" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jtfClienteEntradaRegistroMovimentacao" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="jlClienteEntradaRegistroMovimentacao" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jlPlacaEntradaRegistroMovimentacao" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jtfPlacaEntradaRegistroMovimentacao" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jlModeloEntradaRegistroMovimentacao1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jtfModeloEntradaRegistroMovimentacao" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jtfVagaEntradaRegistroMovimentacao" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jlVagaEntradaRegistroMovimentacao" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="64" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JTextField" name="jtfNumeroCartaoEntradaRegistroMovimentacao">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jlNumeroCartaoEntradaRegistroMovimentacao">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="N&#xfa;mero do Cart&#xe3;o:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="jtfClienteEntradaRegistroMovimentacao">
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jtfClienteEntradaRegistroMovimentacaoActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jlClienteEntradaRegistroMovimentacao">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Cliente:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="jtfPlacaEntradaRegistroMovimentacao">
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jtfPlacaEntradaRegistroMovimentacaoActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jlPlacaEntradaRegistroMovimentacao">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Placa:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="jtfVagaEntradaRegistroMovimentacao">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jlVagaEntradaRegistroMovimentacao">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Vaga:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jlModeloEntradaRegistroMovimentacao1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Modelo:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="jtfModeloEntradaRegistroMovimentacao">
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jpSaidaRegistroMovimentacao">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="SA&#xcd;DA">
+                <Property name="tabTitle" type="java.lang.String" value="SA&#xcd;DA"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <Component id="jbConcluirSaidaRegistroMovimentacao" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="53" max="-2" attributes="0"/>
+                              <Component id="jbCancelarSaidaRegistroMovimentacao" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace pref="99" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace pref="36" max="32767" attributes="0"/>
+                      <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jbConcluirSaidaRegistroMovimentacao" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jbCancelarSaidaRegistroMovimentacao" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JButton" name="jbConcluirSaidaRegistroMovimentacao">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Concluir"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbConcluirSaidaRegistroMovimentacaoActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="jbCancelarSaidaRegistroMovimentacao">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Cancelar"/>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JPanel" name="jPanel2">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                    <TitledBorder/>
+                  </Border>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jlHoraEntradaSaidaRegistroMovimentacao" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="jlTotalPagarSaidaRegistroMovimentacao" min="-2" max="-2" attributes="0"/>
+                              <Component id="CartaoEstacionamentSaidaRegistroMovimentacao" min="-2" pref="140" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Component id="jtfCartaoEstacionamentoSaidaRegistroMovimentacao" pref="100" max="32767" attributes="0"/>
+                                  <Component id="jtfTotalPagarSaidaRegistroMovimentacao" alignment="1" max="32767" attributes="0"/>
+                              </Group>
+                              <Component id="jtfHoraEntradaSaidaRegistroMovimentacao" min="-2" pref="181" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace pref="61" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="jlHoraEntradaSaidaRegistroMovimentacao" min="-2" max="-2" attributes="0"/>
+                              <Component id="jtfHoraEntradaSaidaRegistroMovimentacao" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jtfCartaoEstacionamentoSaidaRegistroMovimentacao" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="CartaoEstacionamentSaidaRegistroMovimentacao" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jtfTotalPagarSaidaRegistroMovimentacao" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jlTotalPagarSaidaRegistroMovimentacao" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace pref="110" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JTextField" name="jtfHoraEntradaSaidaRegistroMovimentacao">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jlHoraEntradaSaidaRegistroMovimentacao">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Hora de Entrada:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="jtfCartaoEstacionamentoSaidaRegistroMovimentacao">
+                </Component>
+                <Component class="javax.swing.JLabel" name="CartaoEstacionamentSaidaRegistroMovimentacao">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Cart&#xe3;o-Estacionamento:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="jtfTotalPagarSaidaRegistroMovimentacao">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jlTotalPagarSaidaRegistroMovimentacao">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Total a Pagar:"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="jlPlacaRegistroMovimentacao1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Vagas livres (avulso):"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelNumeroVagas">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlPlacaRegistroMovimentacao2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Vagas livres (mensal):"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelVagasLivresMensalista">
+    </Component>
+  </SubComponents>
+</Form>
