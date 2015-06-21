@@ -17,9 +17,8 @@ public class ConnectionUtil {
     
     public static java.sql.Connection getConnection(){
         try { 
-            Class.forName("com.mysql.jdbc.Driver");
-            String url = "jdbc:mysql://localhost:3306/epark";
-            con = DriverManager.getConnection(url,"root","root");
+            Class.forName("com.mysql.jdbc.Driver");           
+            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/webpark","root","");
             con.setAutoCommit(true);
             return con;
         } catch ( ClassNotFoundException e){
